@@ -26,6 +26,7 @@ yargs(hideBin(process.argv))
     type: "string",
     description: "Supplemental prefix for filename for easier identification",
   })
+  .usage("Usage: $0 -c [contractAddressA] -c [contractAddressB]")
   .demandOption(["c"])
   .parse()
 
