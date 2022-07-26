@@ -1,6 +1,6 @@
 {
-  "name": "esm-starter",
-  "version": "1.0.0",
+  "name": "snapshot",
+  "version": "0.1.0",
   "main": "index.js",
   "author": "aquatic <aquaticone@protonmail.com>",
   "license": "MIT",
