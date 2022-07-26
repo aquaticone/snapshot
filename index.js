@@ -64,7 +64,9 @@ async function takeSnapshot({
   }
 
   console.log(
-    `${output}\n==========================================\n${commonHolders.length} holders in common`
+    `${output}\n==========================================\n${
+      commonHolders.length
+    } holders${contracts.length > 1 ? " in common" : ""}`
   )
 }
 
