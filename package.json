@@ -37,6 +37,7 @@
     "standard-version": "^9.5.0"
   },
   "dependencies": {
+    "alchemy-sdk": "^2.0.0",
     "yargs": "^17.5.1"
   },
   "lint-staged": {
